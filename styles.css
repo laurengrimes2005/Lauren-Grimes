@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b0b9a6;
+    margin: 0;
+    padding: 20px;
+}
+
+.intro {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.skills-title {
+    background-color: #678a64;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.table-container {
+    background-color: #daf7cf; 
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-collapse: collapse;
+    }
+    
+    th, td {
+        border: 2px solid black; 
+        text-align: center;
+        padding: 8px;
+    }
+    
+    th {
+        background-color: #c6d5c8;
+    }
+
+.about-me {
+    background-color: #daf7cf; 
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.future-goals {
+    background-color: #daf7cf; 
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.reflection {
+    background-color:#daf7cf; 
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.design-process {
+    background-color:#daf7cf; 
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media screen and (max-width: 460px) {
+    .table-container,
+    .about-me,
+    .future-goals,
+    .people-who-inspire-me,
+    .design-process {
+        background-color: white;
+    }
+}
